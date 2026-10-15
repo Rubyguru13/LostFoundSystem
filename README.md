@@ -4,13 +4,8 @@
 [![JavaFX](https://img.shields.io/badge/JavaFX-11%2B-blue.svg)](https://openjfx.io/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-blue.svg)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > A comprehensive JavaFX-based Lost & Found Management System designed for educational institutions. Features a modern, student-friendly blue theme with user authentication, item reporting, smart matching algorithm, and real-time department chat.
-
-## 📸 Screenshots
-
-*Coming soon - Add your screenshots after running the application!*
 
 ## 🌟 Key Features
 
@@ -153,7 +148,7 @@ $JAVAFX_PATH = "C:\javafx-sdk-11\lib"
 $MYSQL_JAR = "C:\mysql-connector-java-8.0.33.jar"
 
 # Navigate to project directory
-cd C:\Users\v.sujay\CascadeProjects\LostFoundSystem
+cd path\to\LostFoundSystem
 
 # Compile all Java files
 javac --module-path $JAVAFX_PATH --add-modules javafx.controls -cp $MYSQL_JAR *.java
